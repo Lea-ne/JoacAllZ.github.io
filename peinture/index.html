@@ -1,0 +1,56 @@
+---
+layout: default
+title: Accueil
+---
+
+
+<!-- Petit text explicatif -->
+<section class="home__text">
+  <h3>La peinture commence là où la vision s'arrête.</h3>
+  <p>La surface et la matière sur lesquelles le premier regard est posé sur la toile sont selon moi les principaux et prévalents 
+    attraits de la peinture. Cette notion de surface est également le fil conducteur de
+     ma démarche s'il en est un, tant au niveau de la forme que du contenu...
+    <a href="/a-propos">En savoir plus</a>
+</p>
+</section>
+
+
+<!-- Theme de peinture -->
+<section class="home__card">
+    <div class="card__container">
+        <!-- Theme 1 -->
+        {% include card_artwork_navigation.html 
+            title="Scapes" 
+            image_source="../images/home-page/crash_again.jpg"
+            link="/scapes" 
+        %}
+
+        <!-- Theme 2 -->
+        {% include card_artwork_navigation.html
+            title="Portraits" 
+            image_source="../images/home-page/p10b.jpg"
+            link="/portraits" 
+        %}
+
+        <!-- Theme 3 -->
+        {% include card_artwork_navigation.html 
+            title="Animas" 
+            image_source="../images/home-page/a17b.jpg"
+            link="/animas" 
+        %}
+
+        <!-- Theme 4 -->
+        {% include card_artwork_navigation.html
+            title="Dessins" 
+            image_source="../images/home-page/d170_b.jpg"
+            link="/dessins" 
+        %}
+
+        <!-- Theme 5 -->
+        {% include card_artwork_navigation.html
+            title="Abs-traits" 
+            image_source="../images/home-page/abs-traits151b.jpg"
+            link="/abs-traits" 
+        %}
+    </div>
+</section>

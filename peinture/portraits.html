@@ -1,0 +1,31 @@
+---
+layout: default
+title: Accueil
+---
+
+
+<!-- Petit text explicatif -->
+<section>
+  <h3>La peinture commence là où la vision s'arrête.</h3>
+  <p>La surface et la matière sur lesquelles le premier regard est posé sur la toile sont selon moi les principaux et prévalents attraits de la peinture. Cette notion de surface est également le fil conducteur de ma démarche s'il en est un, tant au niveau de la forme que du contenu</p>
+</section>
+
+
+<!-- Theme de peinture -->
+<section>
+    <div class="card__container">
+
+        <!-- Genere les card d'oeuvre en fonction des donnée dans animas.json -->
+        {% for artwork in site.data.portraits %}
+            {% include card_artwork_listing.html
+                titre=artwork.titre
+                source_image=artwork.source_image
+                medium=artwork.medium
+                taille=artwork.taille
+                disponibilite=artwork.disponibilite 
+            %}
+        {% endfor %}
+       
+
+    </div>
+</section>
