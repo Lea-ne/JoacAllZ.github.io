@@ -1,0 +1,38 @@
+[
+    {
+      "titre": "Crépuscule sur la mer",
+      "source_image": "https://example.com/images/crepuscule_mer.jpg",
+      "medium": "Acrylique sur toile",
+      "taille": "80 x 100 cm",
+      "disponibilité": "Disponible"
+    },
+    {
+      "titre": "Forêt intérieure",
+      "source_image": "https://example.com/images/foret_interieure.jpg",
+      "medium": "Huile sur bois",
+      "taille": "60 x 90 cm",
+      "disponibilité": "Vendue"
+    },
+    {
+      "titre": "Silence urbain",
+      "source_image": "https://example.com/images/silence_urbain.jpg",
+      "medium": "Encre sur papier",
+      "taille": "50 x 70 cm",
+      "disponibilité": "Disponible"
+    },
+    {
+      "titre": "Reflets d’ombre",
+      "source_image": "https://example.com/images/reflets_ombre.jpg",
+      "medium": "Aquarelle sur papier",
+      "taille": "40 x 60 cm",
+      "disponibilité": "Réservée"
+    },
+    {
+      "titre": "Éclats de mémoire",
+      "source_image": "https://example.com/images/eclats_memoire.jpg",
+      "medium": "Technique mixte sur toile",
+      "taille": "100 x 120 cm",
+      "disponibilité": "Disponible"
+    }
+  ]
+  

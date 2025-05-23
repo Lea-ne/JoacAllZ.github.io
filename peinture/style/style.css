@@ -1,0 +1,160 @@
+/************** VARIABLES ************/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root{
+    --primary-font: 'Inter', sans-serif;
+}
+
+
+
+
+/************** BASIC STYLES ************/
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #222;
+}
+
+.page__container{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--primary-font);
+}
+
+/************** HEADER STYLES ************/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    position: relative;      
+}
+
+header h1 {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+}
+
+header nav {
+    display: flex;
+    gap: 45px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+header nav a{
+  color: #818085;
+}
+
+/************** FOOTER STYLES ************/
+footer {
+    /* position: fixed;
+    bottom: 0px;
+    left: 0; */
+    width: 100%;
+    text-align: center;
+    color: #818085;
+    padding: 10px 0;
+  }
+
+
+
+/************** HOME STYLES ************/
+
+/* petit text explicatif */
+section.home__text{
+    padding-top: 100px;
+}
+
+section.home__text h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+section.home__text p{
+    color: #818085;
+    max-width: 800px;
+}
+
+section.home__text a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 12px;
+    width: fit-content;
+    font-size: 14px;
+}
+
+section.home__text a::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../icons/arrow-right.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Cards de themes */
+
+section.home__card{
+    padding-top: 60px;
+}
+
+section.home__card .card__container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+section.home__card .card_artwork_navigation h3{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #818085;
+}
+
+
+section.home__card .card_artwork_navigation a{
+    height: 420px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: block;
+}
+
+
+
+

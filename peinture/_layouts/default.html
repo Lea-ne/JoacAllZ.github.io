@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="page__container">
+        {% include header.html %}
+        <main>
+            <div class="page__content">
+                {{ content }}
+            </div>
+        </main>
+        {% include footer.html %}
+    </div>
+</body>
+</html>
